@@ -17,7 +17,6 @@ head(teeth)
 ```{r boxplots}
 boxplot(len ~ dose, data = teeth)
 boxplot(len ~ supp, data = teeth)
-boxplot(len ~ dose + supp, data = teeth)
 ```
 
 ```{r permute}
