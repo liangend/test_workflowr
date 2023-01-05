@@ -513,13 +513,13 @@ project makes it easier to run your code on other machines.</p>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongf3a9b0a">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrong9bc5dd0">
 <span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>Repository version:</strong> f3a9b0a
+aria-hidden="true"></span> <strong>Repository version:</strong> 9bc5dd0
 </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongf3a9b0a"
+<div id="strongRepositoryversionstrong9bc5dd0"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -528,7 +528,7 @@ and connecting the code version to the results is critical for
 reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version f3a9b0a.
+The results in this page were generated with repository version 9bc5dd0.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -597,6 +597,40 @@ Message
 Rmd
 </td>
 <td>
+9bc5dd0
+</td>
+<td>
+Jinghui Li
+</td>
+<td>
+2023-01-05
+</td>
+<td>
+Analyze teeth growth
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+009a4a0
+</td>
+<td>
+Jinghui Li
+</td>
+<td>
+2023-01-05
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
 f3a9b0a
 </td>
 <td>
@@ -629,10 +663,82 @@ head(teeth)</code></pre>
 6 10.0   VC  0.5</code></pre>
 <pre class="r"><code>boxplot(len ~ dose, data = teeth)</code></pre>
 <p><img src="figure/teeth.Rmd/boxplots-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-boxplots-1">
+Past versions of boxplots-1.png
+</button>
+</p>
+<div id="fig-boxplots-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+009a4a0
+</td>
+<td>
+Jinghui Li
+</td>
+<td>
+2023-01-05
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <pre class="r"><code>boxplot(len ~ supp, data = teeth)</code></pre>
 <p><img src="figure/teeth.Rmd/boxplots-2.png" width="672" style="display: block; margin: auto;" /></p>
-<pre class="r"><code>boxplot(len ~ dose + supp, data = teeth)</code></pre>
-<p><img src="figure/teeth.Rmd/boxplots-3.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-boxplots-2">
+Past versions of boxplots-2.png
+</button>
+</p>
+<div id="fig-boxplots-2" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+009a4a0
+</td>
+<td>
+Jinghui Li
+</td>
+<td>
+2023-01-05
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <pre class="r"><code># Observed difference in teeth length due to supplement method
 mean(teeth$len[teeth$supp == &quot;OJ&quot;]) - mean(teeth$len[teeth$supp == &quot;VC&quot;])</code></pre>
 <pre><code>[1] 3.7</code></pre>
