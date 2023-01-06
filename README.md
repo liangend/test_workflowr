@@ -2,6 +2,8 @@
 
 A [workflowr][] project.
 
-[workflowr]: https://github.com/workflowr/workflowr. 
+[workflowr]: https://github.com/workflowr/workflowr
 
 View the GitHub Page: https://liangend.github.io/test_workflowr/.
+
+adacsc
